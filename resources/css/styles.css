@@ -107,6 +107,23 @@ a {
   padding: 10px 10px;
 }
 
+.locations {
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.innerlocations {
+  display: flex;
+  flex-direction: row;
+}
+
+.onelocation {
+  width: 300px;
+  flex: 1 1 auto;
+  background-color: black;
+  margin: 20px;
+}
+
 .contact {
   height: 200px;
 }
